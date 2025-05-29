@@ -1,0 +1,46 @@
+{
+	"schemaVersion": 1,
+	"id": "smart_profiler",
+	"version": "${version}",
+	"name": "Smart Performance Profiler",
+	"description": "Advanced real-time performance analysis for Minecraft with automated bottleneck detection and optimization suggestions.",
+	"authors": [
+		"Hiba550"
+	],
+	"contact": {
+		"homepage": "https://github.com/Hiba550/smart-performance-profiler",
+		"sources": "https://github.com/Hiba550/smart-performance-profiler",
+		"issues": "https://github.com/Hiba550/smart-performance-profiler/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/smart_profiler/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.hiba550.smartprofiler.SmartProfilerMod"
+		],
+		"client": [
+			"dev.hiba550.smartprofiler.SmartProfilerClientMod"
+		],
+		"modmenu": [
+			"dev.hiba550.smartprofiler.client.integration.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"smart_profiler.mixins.json",
+		{
+			"config": "smart_profiler.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*",
+		"cloth-config": "*"
+	}
+}

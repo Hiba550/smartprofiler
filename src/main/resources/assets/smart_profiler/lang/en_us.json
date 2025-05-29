@@ -1,0 +1,65 @@
+{
+  "category.smart_profiler.general": "Smart Performance Profiler",
+  
+  "key.smart_profiler.toggle_overlay": "Toggle Performance Overlay",
+  "key.smart_profiler.open_detail_screen": "Open Detailed Profiler",
+  "key.smart_profiler.take_snapshot": "Take Performance Snapshot",
+  "key.smart_profiler.toggle_monitoring": "Toggle Real-time Monitoring",
+  
+  "smart_profiler.overlay.mode.minimal": "Minimal",
+  "smart_profiler.overlay.mode.compact": "Compact", 
+  "smart_profiler.overlay.mode.detailed": "Detailed",
+  "smart_profiler.overlay.mode.graph_only": "Graphs Only",
+  
+  "smart_profiler.overlay.position.top_left": "Top Left",
+  "smart_profiler.overlay.position.top_right": "Top Right",
+  "smart_profiler.overlay.position.bottom_left": "Bottom Left",
+  "smart_profiler.overlay.position.bottom_right": "Bottom Right",
+  "smart_profiler.overlay.position.center": "Center",
+  
+  "smart_profiler.config.title": "Smart Performance Profiler Configuration",
+  "smart_profiler.config.general": "General Settings",
+  "smart_profiler.config.overlay": "Overlay Settings",
+  "smart_profiler.config.thresholds": "Performance Thresholds",
+  "smart_profiler.config.analysis": "Analysis Settings",
+  "smart_profiler.config.notifications": "Notifications",
+  "smart_profiler.config.storage": "Data Storage",
+  "smart_profiler.config.advanced": "Advanced Settings",
+  
+  "smart_profiler.config.enabled": "Enable Smart Profiler",
+  "smart_profiler.config.enabled.tooltip": "Enable or disable the entire profiler system",
+  "smart_profiler.config.realtime_monitoring": "Real-time Monitoring",
+  "smart_profiler.config.realtime_monitoring.tooltip": "Continuously monitor performance in real-time",
+  "smart_profiler.config.bottleneck_analysis": "Bottleneck Analysis",
+  "smart_profiler.config.bottleneck_analysis.tooltip": "Automatically detect performance bottlenecks",
+  
+  "smart_profiler.config.overlay_enabled": "Enable Overlay",
+  "smart_profiler.config.overlay_enabled.tooltip": "Show performance information on screen",
+  "smart_profiler.config.overlay_mode": "Overlay Mode",
+  "smart_profiler.config.overlay_mode.tooltip": "Choose how much information to display",
+  "smart_profiler.config.overlay_opacity": "Overlay Opacity",
+  "smart_profiler.config.overlay_opacity.tooltip": "Transparency level of the overlay",
+  
+  "smart_profiler.config.low_fps_threshold": "Low FPS Threshold",
+  "smart_profiler.config.low_fps_threshold.tooltip": "FPS below this value triggers a warning",
+  "smart_profiler.config.memory_threshold": "Memory Warning Threshold",
+  "smart_profiler.config.memory_threshold.tooltip": "Memory usage percentage that triggers warnings",
+  
+  "smart_profiler.config.reset_confirm": "Reset all settings to default values?",
+  "smart_profiler.config.reset_success": "Configuration reset to defaults",
+  "smart_profiler.config.save_success": "Configuration saved successfully",
+  "smart_profiler.config.load_error": "Failed to load configuration",
+  
+  "smart_profiler.notification.performance_warning": "Performance Warning",
+  "smart_profiler.notification.critical_issue": "Critical Performance Issue",
+  "smart_profiler.notification.optimization_available": "Optimization Suggestion Available",
+  
+  "smart_profiler.warning.low_fps": "Low FPS detected",
+  "smart_profiler.warning.high_memory": "High memory usage",
+  "smart_profiler.warning.memory_leak": "Potential memory leak",
+  "smart_profiler.warning.excessive_chunks": "Too many chunks loaded",
+  "smart_profiler.warning.entity_lag": "Entity processing lag",
+  "smart_profiler.warning.render_lag": "Rendering bottleneck",
+  "smart_profiler.warning.gc_pressure": "Garbage collection pressure",
+  "smart_profiler.warning.network_lag": "Network performance issues"
+}
